@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <header>
-            <a href="./index.html"><img src="./assets/logo.svg" alt="Logo Rocketnews"></a>
+            <a href="./index.html"><img id="logo" src="./assets/logo.svg" alt="Logo Rocketnews"></a>
         </header>
 
         <main>
@@ -29,16 +29,20 @@
             
             <form action="">
                 <label for="email">Insira seu e-mail: </label> <br>
-                <input type="email" name="email" id="email-input" placeholder="oi@rocketseat.com.br">
-                <button><img src="./assets/send.svg" alt=""></button>
+                <div class="send">
+                    <input type="email" name="email" id="email-input" placeholder="oi@rocketseat.com.br">
+                    <button><img src="./assets/send.svg" alt=""></button>
+                </div>
             </form>
 
-            <a href="">deixe-me ler primeiro <img src="./assets/arrow-right.svg" alt=""></a>
+            <footer>
+                <a href="">deixe-me ler primeiro <img src="./assets/arrow-right.svg" alt=""></a>
+            </footer>
         </main>
     </div>
 
-    <div class="container">
-        <img src="./assets/read_news.jpg" alt="Homem lendo as notícias em seu computador">
+    <div class="right-panel">
+        <img class="image" src="./assets/read_news.jpg" alt="Homem lendo as notícias em seu computador">
     </div>
 </body>
 </html>
