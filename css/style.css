@@ -81,6 +81,11 @@ input {
     height: 55px;
 }
 
+input:focus { /* retirar a borda do input quando clicado */
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 button {
     display: flex;
     align-items: center;
